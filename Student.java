@@ -82,37 +82,37 @@ class Student_Data {
 
   }
 
-  // void Get_address() {
-  // System.out.println("Address: " + address);
-  // };
+  String Get_address() {
+   return addsress;
+   };
 
-  // void Get_phone() {
-  // System.out.println("Phone: " + phone);
-  // };
+   int Get_phone() {
+  	 return phone ;
+   };
 
-  // void Get_email() {
-  // System.out.println("Email: " + email);
-  // };
+   String Get_email() {
+     return email;
+   };
 
-  // void Get_gpa() {
-  // System.out.println("GPA: " + gpa);
-  // };
+   double Get_gpa() {
+  	return gpa;
+   };
 
-  // void Get_gender() {
-  // System.out.println("Gender" + gender);
-  // };
+   char Get_gender() {
+   return gender;
+   };
 
-  // void Get_id() {
-  // System.out.println("ID: " + id);
-  // };
+   int Get_id() {
+   return id;
+   };
 
-  // void Get_grade() {
-  // System.out.println("Grade: " + grade);
-  // };
+   char Get_grade() {
+   	return grade;
+   };
 
-  // void Get_department() {
-  // System.out.println("Department: " + department);
-  // };
+   String Get_department () {
+   	return department;
+   };
 
 }
 
